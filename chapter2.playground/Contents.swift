@@ -3,6 +3,7 @@ import UIKit
 // MARK: - 코드 2-1 문자열 보간법
 let name: String = "hyejin"
 print("My name is \(name)")
+print("test")
 
 // MARK: - 코드 2-2 한 줄 주석
 // 한 줄 주석은 이렇게 표현
