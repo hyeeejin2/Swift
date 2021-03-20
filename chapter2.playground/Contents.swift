@@ -23,8 +23,15 @@ import UIKit
 
 // MARK: - 코드 2-1 문자열 보간법
 let name: String = "hyejin"
-print("My name is \(name)")
-print("test")
+print("My name is \(name)") // 출력 : My name is hyejin
+
+let operand1: Int = 10
+let operand2: Int = 20
+print("operand1과 operand2의 합은 \(operand1 + operand2)") // 출력 : operand1과 operand2의 합은 30
+
+let str1: String = "안녕하세요. "
+let str2: String = "저는 김혜진입니다."
+print("\(str1 + str2)") // 출력 : 안녕하세요. 저는 김혜진입니다.
 
 // MARK: - 코드 2-2 한 줄 주석
 // 한 줄 주석은 이렇게 표현
