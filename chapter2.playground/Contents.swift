@@ -1,5 +1,26 @@
 import UIKit
 
+// MARK: - 기본 명명 규칙 예외 1번
+//class let {}
+//let self: let = let()
+//func var() {}
+
+// MARK: - 기본 명명 규칙 예외 2번
+//let hyejin: String = "hyejin"
+//let hyejin: String = "test"
+
+// MARK: - 기본 명명 규칙 예외 3번
+//let test+: String = "test"
+//let -test: String = "test"
+//let te*st: String = "test"
+//let tes/t: String = "test"
+
+// MARK: - 기본 명명 규칙 예외 4번
+//let 123test: Int = 100
+
+// MARK: - 기본 명명 규칙 예외 5번
+//let te st: String = "test"
+
 // MARK: - 코드 2-1 문자열 보간법
 let name: String = "hyejin"
 print("My name is \(name)")
