@@ -34,7 +34,7 @@ let str2: String = "저는 김혜진입니다."
 print("\(str1 + str2)") // 출력 : 안녕하세요. 저는 김혜진입니다.
 
 // MARK: - 코드 2-2 한 줄 주석
-// 한 줄 주석은 이렇게 표현
+// 한 줄 주석은 슬래시 두 개를 사용하여 표현
 
 // MARK: - 코드 2-3 여러 줄 주석
 /*
@@ -180,6 +180,11 @@ age_2 = 23
 job_2 = "student"
 print("저의 이름은 \(name_3)이고, 나이는 \(age_2)세이며, 직업은 \(job_2)입니다. 또한 키는 \(height_2)cm입니다.")
 
+// MARK: - 문서화 주석
+/// 한 줄 문서화 주석
+/**
+ 여러 줄 문서화 주석
+ */
 
 // MARK: - 퀵헬프 사용해보기
 
@@ -272,3 +277,4 @@ print(try blackpink(memberName: "유리", numberOfMember: 4)) // incorrectNameOf
 print(try blackpink(memberName: "리사", numberOfMember: 2)) // incorrectNumberOfMember error
 print(try blackpink(memberName: nil, numberOfMember: 4)) // noName error
  */
+
