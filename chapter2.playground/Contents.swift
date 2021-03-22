@@ -165,7 +165,7 @@ var name_2: String = "hyejin"
 var age: Int = 20
 var job = "student" // 타입 추론이 사용됨
 var height = 157.5 // 변수의 실수 타입에서 타입 추론으로
-print(type(of: height)) // Double타입이 지정된다.
+print(type(of: height)) // Double 타입이 지정된다.
 age = 23 // 변수이므로 값 변경이 가능
 job = "iOS Programmer" // 값 변경 시 같은 타입의 값을 할당해야된다.
 print("저의 이름은 \(name_2)이고, 나이는 \(age)세이며, 직업은 \(job)입니다. 또한 키는 \(height)cm입니다.")
@@ -175,7 +175,7 @@ let name_3: String = "hyejin"
 var age_2: Int = 0
 var job_2 = "iOS Programmer"
 let height_2 = 157.5 // 상수의 실수 타입에서 타입 추론으로
-print(type(of: height_2)) // Double타입이 지정된다.
+print(type(of: height_2)) // Double 타입이 지정된다.
 age_2 = 23
 job_2 = "student"
 print("저의 이름은 \(name_3)이고, 나이는 \(age_2)세이며, 직업은 \(job_2)입니다. 또한 키는 \(height_2)cm입니다.")
